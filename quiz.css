@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(15, 49, 112);
+    overflow-x: hidden;
+}
+.container{
+    height: 50%;
+    width: 50%;
+    background-color: aliceblue;
+    position: absolute;
+    font-size: x-large;
+
+}
+.supmit{
+    width: 100%;
+    background-color: blueviolet;
+    color: aliceblue;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    border: none;
+    cursor: pointer;
+    font-size:large;
+    
+}
+h2{
+    margin: 40px;
+    font-size: xx-large;
+}
+.answer{
+    padding-left: 40px;
+    padding-top: 10px;
+    height: 60px;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.correct{
+    color: green;
+    font-size: x-large;
+}
+.wrong{
+    color: red;
+   
+}
+.score{
+    color: blue;
+    
+}
+
+.button{
+    width: 200px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: x-large;
+}
+.big{
+    display: none;
+}
+
+
+@media (max-width:1800px){
+    .container{
+        height: 80%;
+        width: 80%;
+    }
+   
+}
+
