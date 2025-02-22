@@ -28,13 +28,15 @@ body{
     
 }
 h2{
-    margin: 40px;
+    margin:32px 20px;
     font-size: xx-large;
 }
 .answer{
     padding-left: 40px;
     padding-top: 10px;
     height: 60px;
+    cursor: pointer;
+
 }
 
 .result{
